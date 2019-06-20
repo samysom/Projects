@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+.update{
+    width: 360px;
+    height: 540px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    top: 50%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 40px;
+}
+
+h1
+{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.update p
+{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.update input[type="text"], input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 21px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.update input[type="submit"]
+{
+	margin: 5px;
+	text-align: center;
+	padding: 10px 53px;
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.update input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}

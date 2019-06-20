@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+.atable
+{
+	top: 20%;
+    left: 45%;
+    position: absolute;
+}
+table 
+{
+	font-family: arial, sans-serif;
+  	border-collapse: collapse;
+  	border-spacing: 5px;
+  	background: rgba(0,0,0,0.3);
+  	color: white;
+}
+
+table, th, td 
+{
+  border: 1px solid black;
+}
+
+td, th 
+{
+  text-align: left;
+  padding: 8px;
+  height: 30px;
+}
+
+tr:hover {background-color: #666666;}
+
+th 
+{
+	background: rgba(0,0,0,0.5);
+  	color: white;
+}
+
+h1
+{
+    color: white;
+    font-size: 22px;
+}
+

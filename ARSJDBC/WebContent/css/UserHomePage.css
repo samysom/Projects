@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+.userhome 
+{
+    width: 360px;
+    height: 380px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    top: 50%;
+    left: 73%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 40px;
+}
+
+button
+{
+	margin: 10px;
+	text-align: center;
+	padding: 10px 70px;
+    border: none;
+    outline: none;
+    height: 58px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+h1
+{
+    margin: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-style: italic;
+}
+
+.logout button
+{
+	float:left;
+	position: absolute;
+	margin-top: 30%;
+}
