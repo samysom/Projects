@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+h1
+{
+    margin: 40px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-style: italic;
+}
+
+.airport{
+    width: 200px;
+    height: 400px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 10px;
+}
+
+.flight
+{
+    width: 200px;
+    height: 400px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    top: 50%;
+    left: 35%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 10px;
+}
+
+
+
+.user{
+    width: 200px;
+    height: 400px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    top: 50%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 10px;
+}
+
+.list
+{
+    width: 200px;
+    height: 400px;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    top: 50%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 10px;
+}
+
+button
+{
+	margin: 10px;
+	text-align: center;
+	padding: 10px 50px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}

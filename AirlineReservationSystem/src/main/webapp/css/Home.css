@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0%;
+  overflow: hidden;
+  background: rgba(0,0,0,0.4);
+}
+
+li a 
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.click a:hover:not(.active) {
+  background-color: black;
+ }
+ 
+.active {
+ background-color: #4CAF50;
+}
+
+.vacation 
+{
+    color: #fff;
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.vacation p1
+{
+	font-size: 35px;
+}
+
+.vacation p2
+{
+	font-size: 50px;
+}
+
