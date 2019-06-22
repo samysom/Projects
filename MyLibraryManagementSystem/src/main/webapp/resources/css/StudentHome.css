@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+
+
+button
+{
+	
+	border-radius: 15px;
+	top: 100px;
+	background-color: transparent;
+    color: white;
+    
+	
+}
+    
+div{
+
+    position: absolute;
+	border-color:black;
+	top: 10px;
+	right: 10px;
+	
+}

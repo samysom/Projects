@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+
+
+ h1
+{
+ text-decoration:#ffff80;
+ color:orange;
+ text-shadow:fuchsia;
+    
+    padding-top: 50px;
+} 
+
+.a
+{
+	position: absolute;
+	border-radius: 15px;
+	top: 10px;
+	right: 10px;
+	background-color: transparent;
+    color: silver;	
+}

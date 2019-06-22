@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+
+
+.box{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 400px;
+    height: 320px;
+    border: 5px;
+    border-color: black;
+    padding: 50px;
+    border-radius: 30px;
+    
+    background-color: rgba(201, 206, 205, 0.37);
+    border: 50px;
+    border-color: black;
+
+  }
+     
+ button{
+  background-color: transparent;
+  color: black;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  
+  
+  
+  }
